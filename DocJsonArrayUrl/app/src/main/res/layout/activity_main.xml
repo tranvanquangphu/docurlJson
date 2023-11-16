@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/ten"
-        android:layout_width="415dp"
-        android:layout_height="128dp"
+        android:layout_width="409dp"
+        android:layout_height="110dp"
         android:background="#7CFC00"
         android:gravity="center"
         android:text="Trần Văn Quang Phú"
@@ -26,6 +26,7 @@
         android:id="@+id/listview"
         android:layout_width="0dp"
         android:layout_height="0dp"
+
         android:background="#FAFAD2"
         app:layout_constraintTop_toBottomOf="@+id/ten"
         app:layout_constraintBottom_toBottomOf="parent"

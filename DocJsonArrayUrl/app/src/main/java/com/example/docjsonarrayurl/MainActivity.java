@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         lvView = (ListView) findViewById(R.id.listview);
         arrayList = new ArrayList<>();
 
-        adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayList);
+        adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_activated_1, arrayList);
         lvView.setAdapter(adapter);
         new ReadRSS().execute("https://tranvanquangphu.github.io/filejson/sinhvien.json");
 
